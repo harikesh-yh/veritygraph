@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+
+# Environment
+.env
+.env*.local
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+.vercel
+.env*
+.serena/
+.worktrees/
+
+# GitHub safety: local secrets, credentials, and generated artifacts
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
